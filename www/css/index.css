@@ -114,8 +114,23 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-
- #outerdiv
+#outerdiv
+            {
+                 height: 345px;
+    overflow: hidden;
+    position: relative;
+    width: 666px;
+            }
+     
+            #inneriframe
+            {
+              height: 1201px;
+    left: -146px;
+    position: absolute;
+    top: -296px;
+    width: 1293px;
+            }
+ #outerdivwind
             {
                height: 272px;
     overflow: hidden;
@@ -123,7 +138,7 @@ h1 {
     width: 400px;
             }
      
-            #inneriframe
+            #inneriframewind
             {
                height: 1200px;
     left: -146px;
